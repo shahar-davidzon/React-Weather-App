@@ -1,0 +1,32 @@
+.animation {
+    display: block;
+    animation: fade_in_show 2s;
+}
+
+.animation-a {
+    animation: fade_in_show2 2s;
+}
+
+@keyframes fade_in_show {
+    0% {
+         opacity: 0;
+         transform: scale(0)
+    }
+
+    100% {
+         opacity: 1;
+         transform: scale(1)
+    }
+}
+
+@keyframes fade_in_show2 {
+    0% {
+         opacity: 0;
+         transform: scale(0)
+    }
+
+    100% {
+         opacity: 1;
+         transform: scale(1)
+    }
+}

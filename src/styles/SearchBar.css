@@ -1,0 +1,59 @@
+.search {
+    display: inline-block !important;
+    border: none;
+    border-radius: 3rem;
+    background-color: white;
+    outline: none;
+    font: inherit;
+    z-index: 2;
+    width: 14.9rem;
+    margin-top: 0.5rem !important;
+    
+}
+.icon {
+    display:inline;
+    position: relative;
+    top: -2.8rem;
+    left: 6.5rem;
+    z-index: 3;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    background: none;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.icon:focus-visible,
+i:focus-visible {
+    background-color: rgba(0, 0, 0, 0) !important;
+    outline: none !important;
+}
+button, i:focus,
+button, i {
+        -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important; 
+        -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important; 
+        outline: none !important;
+}
+.icon:hover {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.Mui-error {
+    text-align: center !important;
+}
+
+.search,
+.search .MuiInputBase-root,
+.search input {
+  padding: 0 !important;
+  height: 2rem;
+}
+
+.search {
+   height: 3.3rem;
+}
+
+input {
+    width: 11.5rem !important;
+}
