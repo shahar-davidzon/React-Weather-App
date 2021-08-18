@@ -103,9 +103,15 @@ function Search() {
                     validators={["required"]}
                     errorMessages={["Enter a City name"]}
                 />
-                <button type='submit' className='icon' >    
+                <div>
+                    {value ? <button className='icon' type='reset' onClick={reset}>
+                        <i class="fa fa-times-circle"></i>
+                    </button> : ''}
+                    &nbsp; 
+                    <button type='submit' className='icon' >
                         <i className="fas fa-search-location"></i>
-                </button>
+                    </button>
+                </div>
             </ValidatorForm>
             {showing ?
                 <WeatherBox info={info} /> : ''
